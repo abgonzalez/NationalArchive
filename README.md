@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-# NationalArchive
-Client to search for a Record on the National Archive API
-=======
 NationalArchive
 ================
+Client to search for a Record on the National Archive API
 Requirements:
 --------------
  - Windows machine
@@ -16,5 +13,4 @@ Instructions to run:
  
  
 	
-	
->>>>>>> 018ec77 (initial version)
+
