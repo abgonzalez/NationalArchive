@@ -1,0 +1,11 @@
+C:\00 - NationalArchive\NationalArchive\NationalArchive.Client\bin\Debug\netcoreapp2.1\NationalArchive.deps.json
+C:\00 - NationalArchive\NationalArchive\NationalArchive.Client\bin\Debug\netcoreapp2.1\NationalArchive.runtimeconfig.json
+C:\00 - NationalArchive\NationalArchive\NationalArchive.Client\bin\Debug\netcoreapp2.1\NationalArchive.runtimeconfig.dev.json
+C:\00 - NationalArchive\NationalArchive\NationalArchive.Client\bin\Debug\netcoreapp2.1\NationalArchive.dll
+C:\00 - NationalArchive\NationalArchive\NationalArchive.Client\bin\Debug\netcoreapp2.1\NationalArchive.pdb
+C:\00 - NationalArchive\NationalArchive\NationalArchive.Client\obj\Debug\netcoreapp2.1\NationalArchive.AssemblyInfoInputs.cache
+C:\00 - NationalArchive\NationalArchive\NationalArchive.Client\obj\Debug\netcoreapp2.1\NationalArchive.AssemblyInfo.cs
+C:\00 - NationalArchive\NationalArchive\NationalArchive.Client\obj\Debug\netcoreapp2.1\NationalArchive.csproj.CoreCompileInputs.cache
+C:\00 - NationalArchive\NationalArchive\NationalArchive.Client\obj\Debug\netcoreapp2.1\NationalArchive.dll
+C:\00 - NationalArchive\NationalArchive\NationalArchive.Client\obj\Debug\netcoreapp2.1\NationalArchive.pdb
+C:\00 - NationalArchive\NationalArchive\NationalArchive.Client\obj\Debug\netcoreapp2.1\NationalArchive.genruntimeconfig.cache
