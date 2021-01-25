@@ -2,9 +2,13 @@ NationalArchive
 ================
 
 Client to search for a Record on the National Archive API
-Requirements:
+
+Requirements
+================
 - Windows machine
+
 Instructions to run:
+====================
  - The executable is on .\NationalArchive\NationalArchive.Client\bin\Debug\netcoreapp3.1\NationalArchive.exe
  - Run NationalArchive.exe
  - Type the Record Id to look for.
