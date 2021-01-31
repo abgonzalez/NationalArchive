@@ -12,38 +12,16 @@ namespace NationalArchive
     public class Menu : IMenu
     {
         private readonly ILogger<Menu> _logger;
-        private readonly IRecordFileAuthorityClient _recordFileAuthority;
+        private readonly ITNARecordDetails _recordFileAuthority;
         public Menu(ILogger<Menu> logger,
-                        IRecordFileAuthorityClient recordFileAuthority)
+                        ITNARecordDetails recordFileAuthority)
         {
             _logger = logger;
             _recordFileAuthority = recordFileAuthority;
         }
         public string GetRecord(string recordId)
         {
-            var record = _recordFileAuthority.GetRecordByRecordId(recordId).Result;
-            if (record == null)
-            {
-                return "Not found content";
-            }
-            // If the Title is not null return Title
-            else if (!(string.IsNullOrWhiteSpace(record.Title)))
-            {
-                return record.Title;
-            }
-            else if (!(string.IsNullOrWhiteSpace(record.ScopeContent.Description)))
-            {
-                return record.ScopeContent.Description;
-            }
-            else if (!(string.IsNullOrWhiteSpace(record.CitableReference)))
-            {
-                return record.CitableReference;
-            }
-            else if (string.IsNullOrWhiteSpace(record.ReferenceParentId))
-            {
-                return "Not sufficient information";
-            }
-            return "Error";
+            return _recordFileAuthority.GetConsoleInfoByRecordId(recordId).Result;
         }
     }
 }

@@ -1,0 +1,102 @@
+{
+  "Id": "string",
+  "ArchonReference": "string",
+  "Title": "string",
+  "SortKey": "string",
+  "ContactDetails": {
+    "AddressCountry": "string",
+    "AddressLine1": "string",
+    "AddressTown": "string",
+    "CorrespondenceAddress": "string",
+    "Email": "string",
+    "Fax": "string",
+    "MapUrl": "string",
+    "PostCode": "string",
+    "Telephone": "string",
+    "Url": "string"
+  },
+  "AccessInformation": {
+    "Appointment": "string",
+    "Carn": "string",
+    "Comments": "string",
+    "DisabledAccess": "string",
+    "FeeText": "string",
+    "Holidays": "string",
+    "IdRequired": "string",
+    "Introduction": "string",
+    "OpeningHours": "string",
+    "ResearchService": "string",
+    "TicketText": "string"
+  },
+  "RegistryRecords": [
+    {
+      "NRAID": 0,
+      "RecordTitle": "string",
+      "ROCollectionRef": "string",
+      "OtherReference": "string",
+      "ISADGReference": "string",
+      "SortWord": "string",
+      "ROAccessionNo": "string",
+      "NRADetails": "string",
+      "RecordType": "Catalogue",
+      "RegistryLinks": [
+        "string"
+      ]
+    }
+  ],
+  "NetworkNames": [
+    {
+      "NetworkName": "string",
+      "NetworkURL": "string"
+    }
+  ],
+  "RepositoryType": "string",
+  "CatalogueUrl": "string",
+  "Accessions": [
+    {
+      "Year": "string",
+      "Url": "string"
+    }
+  ],
+  "People": [
+    {
+      "Id": "string",
+      "Name": "string",
+      "Description": "string",
+      "SortPhrase": "string"
+    }
+  ],
+  "Businesses": [
+    {
+      "Id": "string",
+      "Name": "string",
+      "Description": "string",
+      "SortPhrase": "string"
+    }
+  ],
+  "Organisations": [
+    {
+      "Id": "string",
+      "Name": "string",
+      "Description": "string",
+      "SortPhrase": "string"
+    }
+  ],
+  "Families": [
+    {
+      "Id": "string",
+      "Name": "string",
+      "Description": "string",
+      "SortPhrase": "string"
+    }
+  ],
+  "Other": [
+    {
+      "Id": "string",
+      "Name": "string",
+      "Description": "string",
+      "SortPhrase": "string"
+    }
+  ],
+  "IsParent": true
+}

@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using NationalArchive.Client;
 using NationalArchive.Models;
 using System;
 using System.Net.Http;
@@ -10,12 +11,7 @@ namespace NationalArchive
 {
     public class Program
     {
-        static void Main(string[] args)
-        {
-            StarUp(args);
-        }
-
-        private static async void StarUp(string[] args)
+        public static void Main(string[] args)
         {
      
 
@@ -71,13 +67,14 @@ namespace NationalArchive
 
             serviceCollection.AddLogging();
 
-            serviceCollection.AddHttpClient<RecordFileAuthorityClient>()
+            serviceCollection.AddHttpClient<TNARecordDetails>()
             .ConfigurePrimaryHttpMessageHandler(handler =>
                new HttpClientHandler()
                {
                    AutomaticDecompression = System.Net.DecompressionMethods.GZip
                });
-            serviceCollection.AddScoped<IRecordFileAuthorityClient, RecordFileAuthorityClient>();
+            serviceCollection.AddScoped<ITNARecordDetails, TNARecordDetails>();
+            serviceCollection.AddScoped<ITNARecordCollection, TNARecordCollection>();
             serviceCollection.AddScoped<Menu>();
        
         }
