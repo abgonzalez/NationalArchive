@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "chDvlFTukhk3dH/hE6ZI5I5cg6mehFq6Mq26fz/DW6+dSSuT5ole0Ns/Kuibk9zWckUpZFd/DBIBTBps0nRArw==",
+  "dgSpecHash": "/2mLj8QNajXmMN0NnrYrYbhdKX6qg0BTSYJek8uCvW9OylJFpaG/TQLrwYz1xveJaoBfMacFTjKYy6o9ZsMoSg==",
   "success": true,
   "projectFilePath": "C:\\00 - NationalArchive\\NationalArchive\\NationalArchive.Client\\NationalArchive.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,7 @@
     "C:\\Users\\Devadmin.UKCY66473\\.nuget\\packages\\microsoft.extensions.options\\3.1.11\\microsoft.extensions.options.3.1.11.nupkg.sha512",
     "C:\\Users\\Devadmin.UKCY66473\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\2.1.1\\microsoft.extensions.options.configurationextensions.2.1.1.nupkg.sha512",
     "C:\\Users\\Devadmin.UKCY66473\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.11\\microsoft.extensions.primitives.3.1.11.nupkg.sha512",
-    "C:\\Users\\Devadmin.UKCY66473\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+    "C:\\Users\\Devadmin.UKCY66473\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

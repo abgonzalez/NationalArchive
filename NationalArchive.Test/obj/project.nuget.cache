@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "u8JDXj1hs+2/TSv95/l0Ut8+8ERB+JSyJqxXehYbb0HIXqTrL4sfaul3BKlBR2VoJY07QhsKhhBbTwOml7uVfQ==",
+  "dgSpecHash": "0/VWowzEM9hqW3nRzg5NS6+cw9MDTMYfx8yj8oNzFGGEbTxHlrn/5ga2nqhGkpXFa1ghP7X88lujvGDfJf7zBg==",
   "success": true,
   "projectFilePath": "C:\\00 - NationalArchive\\NationalArchive\\NationalArchive.Test\\NationalArchive.Test.csproj",
   "expectedPackageFiles": [
@@ -34,7 +34,7 @@
     "C:\\Users\\Devadmin.UKCY66473\\.nuget\\packages\\mstest.testadapter\\2.1.1\\mstest.testadapter.2.1.1.nupkg.sha512",
     "C:\\Users\\Devadmin.UKCY66473\\.nuget\\packages\\mstest.testframework\\2.1.1\\mstest.testframework.2.1.1.nupkg.sha512",
     "C:\\Users\\Devadmin.UKCY66473\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\Devadmin.UKCY66473\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Devadmin.UKCY66473\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Devadmin.UKCY66473\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
